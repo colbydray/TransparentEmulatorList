@@ -1,4 +1,4 @@
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator | 
 | --- | --- | --- |
 | Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) |
 | Microsoft OS/2 | i386 | [2ine](https://github.com/darkstar/2ine) |
@@ -16,7 +16,7 @@
 | Microsoft Windows CE | mipsii | |
 | Microsoft Windows CE | sh4 | |
 
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator |
 | --- | --- | --- |
 | Linux | arm64 | [qemu-aarch64-static](https://github.com/qemu/qemu) |
 | Linux | armhf | [qemu-arm-static](https://github.com/qemu/qemu) |
@@ -36,7 +36,7 @@
 | Linux | sparc | [qemu-sparc-static](https://github.com/qemu/qemu) |
 | Linux | x64 | [qemu-x86_64-static](https://github.com/qemu/qemu) |
 
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator |
 | --- | --- | --- |
 | AmigaOS | m68k | [amitools](https://github.com/cnvogelg/amitools) |
 | AmigaOS | ppc | |
@@ -45,14 +45,14 @@
 | NextStep | | |
 | RISC OS | | |
 
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator |
 | --- | --- | --- |
-| System | 68000 | |
+| System | m68k | |
 | Mac OS 9 | ppc | |
 | Apple Darwin | i386 | [Darling](https://www.darlinghq.org/) |
 | Mac OS X | x64 | [Darling](https://www.darlinghq.org/) |
 
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator |
 | --- | --- | --- |
 | Amiga Unix | | |
 | Apollo DomainOS | | |
@@ -87,7 +87,7 @@
 | UnixWare | | |
 | Venix | | |
 
-| Guest OS | Guest Arch | Seamless Emulator |
+| Guest OS | Guest Arch | Transparent Emulator |
 | --- | --- | --- |
 | 386BSD | | |
 | NetBSD | | |
