@@ -1,7 +1,7 @@
 | Guest OS | Guest Arch | Transparent Emulator | binfmt |
 | --- | --- | --- | :--- |
-| Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) (Linux) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft OS/2 | i386 | [2ine](https://github.com/darkstar/2ine) (Linux) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) (Linux)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft OS/2 | i386 | [2ine](https://github.com/darkstar/2ine) (Linux)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows 3.x | i386 | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | arm64 | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | armhf | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
@@ -38,7 +38,7 @@
 
 | Guest OS | Guest Arch | Transparent Emulator | binfmt |
 | --- | --- | --- | :--- |
-| AmigaOS | m68k | [amitools](https://github.com/cnvogelg/amitools) (Cross-platform) | ```:amiga68k:M::\x00\x00\x03\xf3\x00\x00\x00\x00:\xff\xff\xff\xff\xff\xff\xff\xff:/usr/local/bin/vamos:``` |
+| AmigaOS | m68k | [amitools](https://github.com/cnvogelg/amitools) (Cross-platform)[Console-Only] | ```:amiga68k:M::\x00\x00\x03\xf3\x00\x00\x00\x00:\xff\xff\xff\xff\xff\xff\xff\xff:/usr/local/bin/vamos:``` |
 | AmigaOS | ppc | | |
 | CP/M | i386 | | |
 | BeOS | | | |
