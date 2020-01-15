@@ -1,10 +1,10 @@
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
-| Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) (Linux)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft OS/2 | i386 | [2ine](https://github.com/darkstar/2ine) (Linux)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows 3.x | i386 | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows NT | arm64 | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows NT | armhf | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
+| Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) (Cygwin)[Console-Only] |  | [emu2](https://github.com/dmsc/emu2) [Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft OS/2 | i386 | | | [2ine](https://github.com/darkstar/2ine) (Linux)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows 3.x | i386 | [Wine](https://wiki.winehq.org/) (Cross-platform) | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows NT | arm64 | | [Wine](https://wiki.winehq.org/) (Cross-platform) | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows NT | armhf | | [Wine](https://wiki.winehq.org/) (Cross-platform) | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | axp | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | i386 | [Wine](https://wiki.winehq.org/) (Cross-platform) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | ia64 | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
@@ -16,8 +16,8 @@
 | Microsoft Windows CE | mipsii | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows CE | sh4 | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
 | Linux | arm64 | [qemu-aarch64-static](https://github.com/qemu/qemu) (Linux) | ```:aarch64:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\xb7:\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-aarch64-static:```|
 | Linux | armhf | [qemu-arm-static](https://github.com/qemu/qemu) (Linux) | ```:arm:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x28\x00:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/bin/qemu-arm-static:```|
 | Linux | armel | [qemu-armeb-static](https://github.com/qemu/qemu) (Linux) | ```:arm:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x28\x00:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/bin/qemu-arm-static:```|
@@ -36,8 +36,8 @@
 | Linux | sparc | [qemu-sparc-static](https://github.com/qemu/qemu) (Linux) | ```:sparc:M::\x7fELF\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x02:\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-sparc-static:```|
 | Linux | x64 | [qemu-x86_64-static](https://github.com/qemu/qemu) (Linux), [noah](https://github.com/linux-noah/noah) (Mac) | ```:x86_64:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x3e\x00:\xff\xff\xff\xff\xff\xfe\xfe\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/local/bin/qemu-x86_64-static:```|
 
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
 | AmigaOS | m68k | [amitools](https://github.com/cnvogelg/amitools) (Cross-platform)[Console-Only] | ```:amiga68k:M::\x00\x00\x03\xf3\x00\x00\x00\x00:\xff\xff\xff\xff\xff\xff\xff\xff:/usr/local/bin/vamos:``` |
 | AmigaOS | ppc | | |
 | CP/M | i386 | | |
@@ -45,15 +45,15 @@
 | NextStep | | | |
 | RISC OS | | | |
 
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
 | System | m68k | | |
 | Mac OS 9 | ppc | | |
 | Apple Darwin | i386 | [Darling](https://www.darlinghq.org/) (Linux) | |
 | Mac OS X | x64 | [Darling](https://www.darlinghq.org/) (Linux) | |
 
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
 | Amiga Unix | | | |
 | Apollo DomainOS | | | |
 | Apple AUX | | | |
@@ -93,8 +93,8 @@
 | Venix | | | |
 
 
-| Guest OS | Guest Arch | Transparent Emulator | binfmt |
-| --- | --- | --- | :--- |
+| Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
+| --- | --- | --- | --- | --- | :--- |
 | 2.11BSD | PDP-11 | [Apout](https://github.com/DoctorWkt/Apout) (Unix) | ```:pdp11:M::\x07\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x09\xf0:\xff\xff\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff:/usr/local/bin/apout:``` |
 | 2.9BSD | PDP-11 | [Apout](https://github.com/DoctorWkt/Apout) (Unix) | ```:pdp11:M::\x07\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x09\xf0:\xff\xff\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff:/usr/local/bin/apout:``` |
 | 386BSD | | | |
