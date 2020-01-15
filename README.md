@@ -2,15 +2,15 @@
 | --- | --- | --- | --- | --- | :--- |
 | Microsoft DOS | i386 | [emu2](https://github.com/dmsc/emu2) (Cygwin)[Console-Only] | | [emu2](https://github.com/dmsc/emu2) [Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft OS/2 | i386 | | | [2ine](https://github.com/darkstar/2ine)[Console-Only] | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows 3.x | i386 | | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows 3.x | i386 | Native (32-bit Windows)<br>[winevdm](https://github.com/otya128/winevdm) | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | arm64 | | | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | armhf | | | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | axp | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows NT | i386 | | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows NT | i386 | Native (32-bit and 64-bit Windows) | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | ia64 | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | mips | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows NT | ppc | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
-| Microsoft Windows NT | x64 | | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
+| Microsoft Windows NT | x64 | Native (64-bit Windows) | [Wine](https://wiki.winehq.org/) | [Wine](https://wiki.winehq.org/) | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows CE | arm | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows CE | i386 | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
 | Microsoft Windows CE | mipsii | | | | ```:MZexec:M::MZ::/usr/bin/exerunsuit.sh:``` |
@@ -23,7 +23,7 @@
 | Linux | armel | | | [qemu-armeb-static](https://github.com/qemu/qemu) | ```:arm:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x28\x00:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/bin/qemu-arm-static:```|
 | Linux | axp | | | [qemu-alpha-static](https://github.com/qemu/qemu) | ```:alpha:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x26\x90:\xff\xff\xff\xff\xff\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/bin/qemu-alpha-static:```|
 | Linux | hppa | | | [qemu-hppa-static](https://github.com/qemu/qemu) | ```:hppa:M::\x7f\x45\x4c\x46\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x0f:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-hppa-static:```|
-| Linux | i386 | | | [qemu-i386-static](https://github.com/qemu/qemu), [Box86](https://github.com/ptitSeb/box86)| ```:i386:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x03\x00:\xff\xff\xff\xff\xff\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/local/bin/qemu-i386-static:```|
+| Linux | i386 | | | [qemu-i386-static](https://github.com/qemu/qemu)<br>[Box86](https://github.com/ptitSeb/box86)| ```:i386:M::\x7fELF\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x03\x00:\xff\xff\xff\xff\xff\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff:/usr/local/bin/qemu-i386-static:```|
 | Linux | ia64 |  | |
 | Linux | m68k | | | [qemu-m68k-static](https://github.com/qemu/qemu) | ```:m68k:M::\x7fELF\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x04:\xff\xff\xff\xff\xff\xff\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-m68k-static:```|
 | Linux | mips | | | [qemu-mips-static](https://github.com/qemu/qemu) | ```:mips:M::\x7fELF\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x08:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-mips-static:```|
@@ -49,8 +49,8 @@
 | --- | --- | --- | --- | --- | :--- |
 | System | m68k | | |
 | Mac OS 9 | ppc | | |
-| Apple Darwin | i386 | | | [Darling](https://www.darlinghq.org/) | |
-| Mac OS X | x64 | | | [Darling](https://www.darlinghq.org/) | |
+| Apple Darwin | i386 | | Native | [Darling](https://www.darlinghq.org/)[Console-Only] | |
+| Mac OS X | x64 | | Native | [Darling](https://www.darlinghq.org/)[Console-Only] | |
 
 | Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
 | --- | --- | --- | --- | --- | :--- |
@@ -76,7 +76,7 @@
 | OSR5 Unix | | | | | |
 | QNX | | | | | |
 | RISC iX | | | | | |
-| SGI IRIX | mips | | | [qemu-irix, qemu-irixn32](https://github.com/camthesaxman/qemu-irix) | |
+| SGI IRIX | mips | | | [qemu-irix](https://github.com/camthesaxman/qemu-irix)<br>[qemu-irixn32](https://github.com/camthesaxman/qemu-irix)| |
 | SGI IRIX | mips64 | | | [qemu-irix64](https://github.com/camthesaxman/qemu-irix) | |
 | SINIX-Z | | | | | |
 | Sony NEWS-OS 3.x | | | | | |
