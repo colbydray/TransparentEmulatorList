@@ -44,7 +44,7 @@
 | BeOS | | | | | |
 | NextStep | | | | | |
 | RISC OS | | | | | |
-| Human68K | m68k | [Run68](https://sourceforge.net/projects/run68/) [Console-Only] | | [Run68](https://sourceforge.net/projects/run68/) [Console-Only] | |
+| Human68K | m68k | [Run68](https://sourceforge.net/projects/run68/) [Console-Only] | | | |
 
 | Guest OS | Guest Arch | Windows | Mac | Linux | binfmt |
 | --- | --- | --- | --- | --- | :--- |
